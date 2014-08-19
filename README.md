@@ -9,7 +9,7 @@ modifies to make it work on mac osx too.
 
 
 ## INSTALL ##
-1. Just put the el file in your load path,add load it.
+1. Just put the el file in your load path,and load it.
    
    `(load-file "/path/to/writer-typewriter.el")`
 
@@ -45,7 +45,7 @@ the end).
 
 The origin file use *or* to match different situatoins,I think it may
 be not necessary it you are sure about your settings.Since This
-function will invoked every time you type a char,use only one judgment
+function will be invoked every time you type a char,use only one judgment
 statement may be more efficient.
     
    
