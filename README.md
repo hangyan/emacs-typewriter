@@ -17,10 +17,9 @@ modifies to make it work on mac osx too.
 
    `(defvar writer-keyclick-noise "~/Emacs/data/sound/typewriter-key-1.wav")`
    
-    `(defvar writer-keyclick-noise "~/Emacs/data/sound/typewriter-key-1.wav")`
+   `(defvar writer-marginbell-noise "~/Emacs/data/sound/typewriter-key-2.wav")`
 
-    `(defvar writer-keyclick-noise
-    "~/Emacs/data/sound/typewriter-key-1.wav")`
+   `(defvar writer-linefeed-noise "~/Emacs/data/sound/typewriter-key-3.wav")`
 
     Some website will provide these kind of wavs,I download some from
     <http://www.soundjay.com/typewriter-sounds.html>(They don't allowd
@@ -43,7 +42,7 @@ have change it to *newline-and-indent*,if you use only *newline*,you
 may need to replace *newline-and-indet* to *newline* in the file(at
 the end).
 
-The origin file use *or* to match different situatoins,I think it may
+The origin file use *or* to match different situations,I think it may
 be not necessary it you are sure about your settings.Since This
 function will be invoked every time you type a char,use only one judgment
 statement may be more efficient.
